@@ -16,7 +16,7 @@ const generateHTML = require ('./generateHTML');
 //set up the fs as a promise
 const writeFileAsync = util.promisify(fs.writeFile);
 
-//this async function ask questions in the terminal, creates a template, exports
+//this async function asks questions in the terminal, creates a template, exports
 //the html, then reads that html and converts it to a PDF
 async function init() 
 {
