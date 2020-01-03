@@ -1,10 +1,3 @@
-/*
-You are required to submit the following:
-* write README file
-* An animated GIF demonstrating the app functionality
-* A generated PDF of your GitHub profile
-* The URL of the GitHub repository  */
-
 //load the libraries
 const fs = require("fs");
 const inquirer = require("inquirer");
